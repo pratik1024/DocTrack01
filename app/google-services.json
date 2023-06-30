@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358077742957",
+    "project_id": "doctrack-auth",
+    "storage_bucket": "doctrack-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358077742957:android:b661540633232ff64ba464",
+        "android_client_info": {
+          "package_name": "com.example.project_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358077742957-a4ghqhpl34bl6pdn3pjboogf9t8s5v4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-2NRzi4aMjTGFGW4z3KiFdZMTE5yjaNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358077742957-a4ghqhpl34bl6pdn3pjboogf9t8s5v4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

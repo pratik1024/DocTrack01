@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/DarkGreen</item>
+    </style>
+    <style name="mytoast">
+    <item name="stTextBold">true</item>
+    <item name="stTextColor">#FFFFFF</item>
+    <item name="stFont">@font/sansita_bold</item>
+    <item name="stTextSize">14sp</item>
+    <item name="stColorBackground">#80003D0E</item>
+    <item name="stSolidBackground">true</item>
+    <item name="stStrokeWidth">2dp</item>
+    <item name="stStrokeColor">#44DF4B</item>
+    <item name="stIconStart">@drawable/bag_image</item>
+    <!--        <item name="stIconEnd">@drawable/ic_launcher_foreground</item>-->
+    <item name="stLength">LONG</item> LONG or SHORT
+            <item name="stGravity">top</item> top or center
+    <item name="stRadius">5dp</item>
+</style></resources>

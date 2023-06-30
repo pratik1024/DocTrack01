@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="397dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="Logo" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Description :"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Doctor :"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <TextView
+        android:id="@+id/desc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Department :"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/rgstr_btn"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Book"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
+
+    <EditText
+        android:id="@+id/desc_text"
+        android:layout_width="370dp"
+        android:layout_height="133dp"
+        android:fontFamily="@font/bebas_neue"
+        android:ems="0"
+        android:maxLines="50"
+        android:gravity="top"
+        android:layout_marginTop="0dp"
+        android:lines="10"
+        android:inputType="textLongMessage"
+        android:text="I am suffering from fever"
+        android:hint="Type Here..."
+        android:padding="10dp"
+        android:background="@drawable/edt_background"
+        app:layout_constraintBottom_toTopOf="@+id/rgstr_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.134" />
+<!-- Google Theme Spinner-->
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/til_dept"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/rgstr_btn"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.491"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/desc_text"-->
+<!--        app:layout_constraintVertical_bias="0.244"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"-->
+<!--        app:startIconDrawable="@drawable/baseline_content_paste_24"-->
+<!--        android:background="@drawable/edt_background">-->
+<!--        <AutoCompleteTextView-->
+<!--            android:id="@+id/act_dept"-->
+<!--            android:background="@drawable/edt_background"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Select Department"-->
+<!--            android:fontFamily="@font/bebas_neue"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:text="Sample"-->
+<!--            >-->
+
+<!--        </AutoCompleteTextView>-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/til_doct"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/rgstr_btn"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.491"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/desc_text"-->
+<!--        app:layout_constraintVertical_bias="0.700"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"-->
+<!--        app:startIconDrawable="@drawable/icons8_medical_doctor_26"-->
+<!--        android:background="@drawable/edt_background">-->
+<!--        <AutoCompleteTextView-->
+<!--            android:id="@+id/act_doct"-->
+<!--            android:background="@drawable/edt_background"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Select Doctor"-->
+<!--            android:fontFamily="@font/bebas_neue"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:text="Sample"-->
+<!--            >-->
+
+<!--        </AutoCompleteTextView>-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+    <Spinner
+        android:id="@+id/dept"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:spinnerMode="dialog"
+        android:background="@drawable/edt_background"
+        app:layout_constraintBottom_toTopOf="@+id/rgstr_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc_text"
+        app:layout_constraintVertical_bias="0.217">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/doct"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:spinnerMode="dialog"
+        android:background="@drawable/edt_background"
+        app:layout_constraintBottom_toTopOf="@+id/rgstr_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc_text"
+        app:layout_constraintVertical_bias="0.686">
+
+    </Spinner>
+</androidx.constraintlayout.widget.ConstraintLayout>

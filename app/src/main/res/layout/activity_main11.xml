@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11"
+    android:background="@drawable/background">
+
+<!--    <EditText-->
+<!--        android:id="@+id/search"-->
+<!--        android:layout_width="343dp"-->
+<!--        android:layout_height="36dp"-->
+<!--        android:background="@drawable/edt_background"-->
+<!--        android:drawableEnd="@drawable/baseline_search_24"-->
+<!--        android:imeOptions=""-->
+<!--        android:inputType="text"-->
+<!--        android:paddingRight="20dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/search_btn"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.545" />-->
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Check"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_left_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_right_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_down_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9507524" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_strt_dtls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_end_dtls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="317dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_left_dtls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.28" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_strt_lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_end_lst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="375dp"
+        android:layout_height="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gd_right_05"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_05"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Name :"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:paddingLeft="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_left_dtls"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_05"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.022">
+
+    </TextView>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Phone No. :"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_left_dtls"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_05"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.350">
+    </TextView>
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Age :"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_left_dtls"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_05"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.650">
+    </TextView>
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Gender :"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:paddingLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_left_dtls"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_05"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.950">
+    </TextView>
+
+    <TextView
+        android:id="@+id/name_set"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingLeft="10sp"
+        android:text="Pratik Ranjan Dash"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_right_05"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_dtls"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.022">
+
+    </TextView>
+    <TextView
+        android:id="@+id/phone_set"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingLeft="10sp"
+        android:text="9040408168"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_right_05"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_dtls"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.350">
+
+    </TextView>
+    <TextView
+        android:id="@+id/age_set"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingLeft="10sp"
+        android:text="20"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_right_05"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_dtls"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.650">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/gender_set"
+        android:layout_width="256dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/bebas_neue"
+        android:paddingLeft="10sp"
+        android:text="Male"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gd_end_dtls"
+        app:layout_constraintEnd_toEndOf="@+id/gd_right_05"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="@+id/gd_left_dtls"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_dtls"
+        app:layout_constraintVertical_bias="0.950">
+
+    </TextView>
+
+<!--    <ListView-->
+<!--        android:id="@+id/list_appt_dtls"-->
+<!--        android:layout_width="362dp"-->
+<!--        android:layout_height="294dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.489"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/gd_end_dtls"-->
+<!--        app:layout_constraintVertical_bias="0.525">-->
+
+<!--    </ListView>-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="354dp"
+        android:layout_height="85dp"
+        android:background="@drawable/edt_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gd_strt_lst">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebas_neue"
+            android:text="Shaikh Habibur Rehaman"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.172" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebas_neue"
+            android:text="9777795786"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.655" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

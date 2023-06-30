@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DocTracker</string>
+    <string name="label_dept">Select Department</string>
+    <string name="new_appointment">New Appointment</string>
+</resources>
